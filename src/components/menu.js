@@ -3,7 +3,7 @@ import volver from '../Access/img/volver.png'
 import mas from '../Access/img/openmoji_more-information.png'
 import mujer from '../Access/img/mujer.jpg'
 import "../pages/styles/vistaPrincipal.css";
-import Form from '../components/form';
+//import Form from '../components/form';
 
 class Menu extends Component {
     constructor(props){
@@ -13,9 +13,8 @@ class Menu extends Component {
 
     newproyect = (e) => {
         e.preventDefault();
-        if(user && window.location.pathname !== '/form') window.location = '/form';
-        <Form />
-
+        /* if(user && window.location.pathname !== '/form') window.location = '/form';
+        <Form /> */
     }
     render(){
         return(
