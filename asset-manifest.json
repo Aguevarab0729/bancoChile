@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Aguevarab0729/bancoChile.git/static/css/main.09138475.chunk.css",
+    "main.js": "/Aguevarab0729/bancoChile.git/static/js/main.14ac6794.chunk.js",
+    "main.js.map": "/Aguevarab0729/bancoChile.git/static/js/main.14ac6794.chunk.js.map",
+    "runtime-main.js": "/Aguevarab0729/bancoChile.git/static/js/runtime-main.7d6d371e.js",
+    "runtime-main.js.map": "/Aguevarab0729/bancoChile.git/static/js/runtime-main.7d6d371e.js.map",
+    "static/js/2.6a38cfec.chunk.js": "/Aguevarab0729/bancoChile.git/static/js/2.6a38cfec.chunk.js",
+    "static/js/2.6a38cfec.chunk.js.map": "/Aguevarab0729/bancoChile.git/static/js/2.6a38cfec.chunk.js.map",
+    "static/js/3.f4399b6d.chunk.js": "/Aguevarab0729/bancoChile.git/static/js/3.f4399b6d.chunk.js",
+    "static/js/3.f4399b6d.chunk.js.map": "/Aguevarab0729/bancoChile.git/static/js/3.f4399b6d.chunk.js.map",
+    "index.html": "/Aguevarab0729/bancoChile.git/index.html",
+    "static/css/main.09138475.chunk.css.map": "/Aguevarab0729/bancoChile.git/static/css/main.09138475.chunk.css.map",
+    "static/js/2.6a38cfec.chunk.js.LICENSE.txt": "/Aguevarab0729/bancoChile.git/static/js/2.6a38cfec.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/Aguevarab0729/bancoChile.git/static/media/Nunito-ExtraBold.3462f086.ttf",
+    "static/media/casitas.af03c667.png": "/Aguevarab0729/bancoChile.git/static/media/casitas.af03c667.png",
+    "static/media/crediChile.307fee05.png": "/Aguevarab0729/bancoChile.git/static/media/crediChile.307fee05.png",
+    "static/media/edificio.1ac93d10.png": "/Aguevarab0729/bancoChile.git/static/media/edificio.1ac93d10.png",
+    "static/media/error.1e9eb2af.png": "/Aguevarab0729/bancoChile.git/static/media/error.1e9eb2af.png",
+    "static/media/vistaPrincipal.css": "/Aguevarab0729/bancoChile.git/static/media/raleway.e90263fc.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d6d371e.js",
+    "static/js/2.6a38cfec.chunk.js",
+    "static/css/main.09138475.chunk.css",
+    "static/js/main.14ac6794.chunk.js"
+  ]
+}
