@@ -13,7 +13,9 @@ class Menu extends Component {
 
     newproyect = (e) => {
         e.preventDefault();
+        if(user && window.location.pathname !== '/form') window.location = '/form';
         <Form />
+
     }
     render(){
         return(
