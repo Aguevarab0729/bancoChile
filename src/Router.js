@@ -10,12 +10,13 @@ import firebase from './Access/firebase';
 
 
 class Router extends Component {
-    componentDidMount(){
+    /* componentDidMount(){
         console.log('aqui');
         firebase.auth().onAuthStateChanged((user) => {
             if(user && window.location.pathname !== '/vista1') window.location = '/vista1';
+            <Form />
         })
-    }
+    } */
     render(){
         return(
             <BrowserRouter>

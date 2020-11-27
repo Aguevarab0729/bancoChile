@@ -28,6 +28,7 @@ class Data extends Component{
               </div>
             </div>
           </React.Fragment>)
+          
       }
       if (e.proyecto.includes('Proyectos Inmobiliarios')) {
         list.push(
