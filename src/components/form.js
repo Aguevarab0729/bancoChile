@@ -6,6 +6,7 @@ import firebase from '../Access/firebase';
 import 'firebase/firestore'
 import '../components/styles/form.css';
 
+
 class Form extends Component {
     
     constructor (props) {
@@ -40,6 +41,7 @@ class Form extends Component {
     handleSubmit = (e) => {
       e.preventDefault()
       const values = JSON.stringify(this.state)
+      alert('Información enviada')
       console.log(values)
       let db = firebase.firestore();
 

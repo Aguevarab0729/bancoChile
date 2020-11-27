@@ -8,16 +8,16 @@ import reportWebVitals from './reportWebVitals';
 //import Form2 from './components/form2';
 //import App from './App';
 //import Login from './pages/Login';
-//import Form from './components/form';
+import Form from './components/form';
 //import VistaPrincipal from './pages/vistaPrincipal';
 
 //import Header from './components/header';
-import Router from './Router';
+//import Router from './Router';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router />
+    <Form/>
   </React.StrictMode>,
   document.getElementById('root')
 );
