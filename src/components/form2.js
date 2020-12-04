@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Menu from './menu';
-import Header from './header';
-import SelectBox from './selectbox';
+import Menu from './Menu';
+import Header from './Header';
+import SelectBox from './Selectbox';
 import Form from 'react-bootstrap/Form';
-import '../components/styles/form2.css';
+import './Form2.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Form2 extends Component {

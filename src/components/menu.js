@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import volver from '../Access/img/volver.png'
 import mas from '../Access/img/openmoji_more-information.png'
 import mujer from '../Access/img/mujer.jpg'
-import "../pages/styles/vistaPrincipal.css";
+import "./VistaPrincipal.css";
 //import Form from '../components/form';
 
 class Menu extends Component {

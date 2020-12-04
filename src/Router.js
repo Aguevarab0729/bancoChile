@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import Login from './components/Login';
-import VistaPrincipal from './vistaPrincipal';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
-import Error from './Error';
-import Form from './components/Form';
-//import Header from './components/header';
 import firebase from './Access/firebase';
 
+import Form from './components/Form';
+import Login from './components/Login';
+import VistaPrincipal from './components/VistaPrincipal';
+import Error from './Error';
+//import Header from './components/header';
 
 class Router extends Component {
     componentDidMount(){

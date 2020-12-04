@@ -1,23 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import Data from './components/data';
-//import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-//import Login from './pages/Login.js';
-//import Form2 from './components/form2';
 //import App from './App';
 import Login from './components/Login';
-//import Form from './components/Form';
-//import VistaPrincipal from './pages/vistaPrincipal';
-
-//import Header from './components/header';
-//import Router from './Router';
-
+import VistaPrincipal from './components/VistaPrincipal';
 
 ReactDOM.render(
   <React.StrictMode>
     <Login />
+    <VistaPrincipal />
   </React.StrictMode>,
   document.getElementById('root')
 );

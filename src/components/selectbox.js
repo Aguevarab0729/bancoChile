@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./styles/selectbox.css";
+import "./Selectbox.css";
 import todo from '../Access/data/data.json'
 //import Data from './data.js'
 
@@ -26,14 +26,14 @@ class SelectBox extends Component {
   let newState = { ...this.state };
   newState.name = item.value;
   console.log(todo.data);
- newState.todo = todo.data.filter(
- s => s.comuna.includes(newState.name)
+  newState.todo = todo.data.filter(
+  s => s.comuna.includes(newState.name)
    //console.log('prueba' + s.comuna.includes(newState.name));
 //return s.comuna.includes(newState.name)
   
- )
- console.log(todo.data.filter( s => s.comuna.includes(newState.name)))
- console.log(newState.name);
+  )
+  console.log(todo.data.filter( s => s.comuna.includes(newState.name)))
+  console.log(newState.name);
   this.setState(newState);
 
   //this.props.onUpdateDish(this.props.index, newState.name);

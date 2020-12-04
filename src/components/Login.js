@@ -3,7 +3,7 @@ import firebase from '../Access/firebase';
 //import Header from '../components/header.js';
 import persona from '../Access/img/personita.png';
 import candado from '../Access/img/candadito.png';
-import './styles/Login.css';
+import './Login.css';
 import Header from './Header';
 //import Router from '../Router';
 

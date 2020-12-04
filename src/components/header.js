@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/header.css'
+import './Header.css'
 import logo from '../Access/img/BancoChile.png'
 import credi from '../Access/img/crediChile.png'
 import edw from '../Access/img/edw.png'

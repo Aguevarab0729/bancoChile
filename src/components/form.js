@@ -4,7 +4,7 @@ import Header from './Header';
 import SelectBox from './Selectbox';
 import firebase from '../Access/firebase';
 import 'firebase/firestore'
-import '../components/styles/form.css';
+import './Form.css';
 
 
 class Form extends Component {

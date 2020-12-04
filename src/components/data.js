@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-
+import './Data.css';
 import data from '../Access/data/data.json'
-import './styles/data.css'
 import casitas from '../Access/img/casitas.png'
 import edificio from '../Access/img/edificio.png'
 

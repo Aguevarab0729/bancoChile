@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./styles/vistaPrincipal.css";
+import "./VistaPrincipal.css";
 import Header from "./Header";
 import SelectBox from "./Selectbox";
 import Menu from "./Menu";
