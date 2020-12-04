@@ -7,8 +7,8 @@ import reportWebVitals from './reportWebVitals';
 //import Login from './pages/Login.js';
 //import Form2 from './components/form2';
 //import App from './App';
-//import Login from './pages/Login';
-import Form from './components/form';
+import Login from './components/Login';
+//import Form from './components/Form';
 //import VistaPrincipal from './pages/vistaPrincipal';
 
 //import Header from './components/header';
@@ -17,7 +17,7 @@ import Form from './components/form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Form/>
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 );

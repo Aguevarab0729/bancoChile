@@ -17,10 +17,10 @@ class Data extends Component{
           <React.Fragment key={e.id}>
             <div className='botonesPrincipal'>
               <li className='lista'>
-              { <img className='imgPrincipal' src={casitas} alt='imagen'/> }
-              <div className='fecha'>{e.fecha}</div>
-              <div  className='name'>{e.name}</div>
-              <div className='inmuebles'>{e.proyecto}</div>
+                <img className='imgPrincipal' src={casitas} alt='imagen'/>
+                <div className='fecha'>{e.fecha}</div>
+                <div  className='name'>{e.name}</div>
+                <div className='inmuebles'>{e.proyecto}</div>
               </li>
               <div className='abajo'>
               <button className='botonInfor' type='button'>Informe</button>
@@ -28,7 +28,6 @@ class Data extends Component{
               </div>
             </div>
           </React.Fragment>)
-          
       }
       if (e.proyecto.includes('Proyectos Inmobiliarios')) {
         list.push(

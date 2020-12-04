@@ -4,7 +4,7 @@ import firebase from '../Access/firebase';
 import persona from '../Access/img/personita.png';
 import candado from '../Access/img/candadito.png';
 import './styles/Login.css';
-import Header from '../components/header';
+import Header from './Header';
 //import Router from '../Router';
 
 export default class Login extends Component {

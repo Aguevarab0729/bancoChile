@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Header from "../components/header";
 import "./styles/vistaPrincipal.css";
-import SelectBox from "../components/selectbox";
-import Menu from "../components/menu";
-import Data from "../components/data";
+import Header from "./Header";
+import SelectBox from "./Selectbox";
+import Menu from "./Menu";
+import Data from "./Data";
 
 class VistaPrincipal extends Component {
   constructor(props){
@@ -79,7 +79,6 @@ class VistaPrincipal extends Component {
   }
 
   render() {
-
     return (
     <React.Fragment>
         <Header />

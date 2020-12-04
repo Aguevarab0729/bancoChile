@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Menu from '../components/menu';
-import Header from '../components/header';
-import SelectBox from '../components/selectbox';
+import Menu from './Menu';
+import Header from './Header';
+import SelectBox from './Selectbox';
 import firebase from '../Access/firebase';
 import 'firebase/firestore'
 import '../components/styles/form.css';

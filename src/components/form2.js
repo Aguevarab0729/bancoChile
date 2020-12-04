@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Menu from '../components/menu';
-import Header from '../components/header';
-import SelectBox from '../components/selectbox';
+import Menu from './menu';
+import Header from './header';
+import SelectBox from './selectbox';
 import Form from 'react-bootstrap/Form';
 import '../components/styles/form2.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
